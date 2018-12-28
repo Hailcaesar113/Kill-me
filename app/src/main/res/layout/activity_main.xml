@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:id="@+id/tvProvider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_main_padding"
+            android:textSize="17sp"
+            android:text="Поставщик угля: "/>
+
+    <TextView
+            android:id="@+id/tvCoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_main_padding"
+            android:textSize="17sp"
+            android:text="Марка угля: "/>
+
+    <TextView
+            android:id="@+id/tvCoalPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:padding="@dimen/activity_main_padding"
+            android:text="Цена за тонну: "/>
+    <TextView
+            android:id="@+id/tvWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:padding="@dimen/activity_main_padding"
+            android:text="Сколько в тоннах: "/>
+
+    <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:padding="@dimen/activity_main_padding"
+            android:text="Адрес: "/>
+
+    <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_main_padding"
+            android:textSize="17sp"
+            android:text="Цена: "/>
+
+    <Button
+            android:id="@+id/btnBuy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Заказать"/>
+</LinearLayout>
